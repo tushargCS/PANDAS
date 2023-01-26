@@ -62,3 +62,53 @@ this repository contains all brief information about pandas (Series/DataFrame) c
  29.apply
  
  30.copy
+ 
+ 🅿🅰🆁🆃 2 🅲🅾🅽🆃🅰🅸🅽🆂
+ 
+ Creating DataFrame
+ 
+ 1.using lists
+ 
+ 2.using dicts
+ 
+ 3.using read_csv
+
+ 4.DataFrame Attributes and Methods
+   shape
+   dtypes
+   index
+   columns
+   values
+   
+   head and tail()
+   sample()
+   info()
+   describe()
+   isnull()
+   duplicated()
+   rename()
+
+5.Mathematical Methods
+
+6.Selecting cols from a DataFrame -- single cols
+
+7.Selecting cols from a DataFrame -- multiple cols
+
+8.Selecting rows from a DataFrame
+
+9.iloc - searches using index positions
+
+10.loc - searches using index labels
+
+11.Selecting both rows and cols
+
+12.Filtering a DataFrame
+
+13.Adding new cols - completely new
+
+14.Adding new cols - from existing ones
+
+
+Dataframe IMPORTANT function 
+ 1.astype
+ 
