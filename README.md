@@ -4,9 +4,28 @@ this repository contains all brief information about pandas (Series/DataFrame) c
 🅿🅰🆁🆃 1 🅲🅾🅽🆃🅰🅸🅽🆂
  
  Pandas 
+ 
+ 
+ 
+ 
  What is Pandas.
+ 
+ 
+ 
+ 
  Series from lists
+ 
+ 
+ 
+ 
+ 
+ 
  Series from dict
+ 
+ 
+ 
+ 
+ 
  Series Attributes(size/dtype/name/is_unique/index/values)
  Series using read_csv
  Series methods
