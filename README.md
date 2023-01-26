@@ -1,44 +1,43 @@
 # PANDAS
 this repository contains all brief information about pandas (Series/DataFrame) contains all functions and methods like groupby(),merge and many more.
 
-🅿🅰🆁🆃 1 🅲🅾🅽🆃🅰🅸🅽🆂
+🅿🅰🆁🆃 1 🅲🅾🅽🆃🅰🅸🅽🆂 
  
- Pandas 
+ 1.What is Pandas.
  
+ 2.Series from lists
  
+ 3.Series from dict
  
+ 4.Series Attributes(size/dtype/name/is_unique/index/values)
  
- What is Pandas.
+ 5.Series using read_csv
  
+ 6.Series methods
  
+ 7.series.head()/series.tail()
  
+ 8.series.sample()
  
- Series from lists
+ 9.value_counts()
  
+ 10.sort_values()
  
+ 11.sort_index()
  
+ 12.Series Maths Methods
  
+ 13.count()
  
+ 14.series.sum/product
  
- Series from dict
+ 15.mean/median/mode
  
+ 16.min/max
  
+ 17.Describe
  
+ 18.Series Indexing
  
- 
- Series Attributes(size/dtype/name/is_unique/index/values)
- Series using read_csv
- Series methods
- series.head()/series.tail()
- series.sample()
- value_counts()
- sort_values()
- sort_index()
- Series Maths Methods
- count()
- series.sum/product
- mean/median/mode
- min/max
- Describe
- Series Indexing
- Editing Series
+ 19.Editing Series
+
