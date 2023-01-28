@@ -110,5 +110,24 @@ this repository contains all brief information about pandas (Series/DataFrame) c
 
 
 Dataframe IMPORTANT function 
- 1.astype
  
+1. astype
+
+2. between
+
+3. clip
+
+4. drop_duplicates
+5. duplicated
+
+6. isnull
+
+7. dropna
+
+8. fillna
+
+9. isin
+
+10. apply
+
+11. copy
