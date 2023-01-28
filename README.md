@@ -63,7 +63,7 @@ this repository contains all brief information about pandas (Series/DataFrame) c
  
  30.copy
  
- 🅿🅰🆁🆃 2 🅲🅾🅽🆃🅰🅸🅽🆂
+🅿🅰🆁🆃 2 🅲🅾🅽🆃🅰🅸🅽🆂
  
  Creating DataFrame
  
@@ -72,7 +72,7 @@ this repository contains all brief information about pandas (Series/DataFrame) c
  2.using dicts
  
  3.using read_csv
-
+ 
  4.DataFrame Attributes and Methods
    shape
    dtypes
@@ -88,46 +88,297 @@ this repository contains all brief information about pandas (Series/DataFrame) c
    duplicated()
    rename()
 
-5.Mathematical Methods
+ 5.Mathematical Methods
 
-6.Selecting cols from a DataFrame -- single cols
+ 6.Selecting cols from a DataFrame -- single cols
 
-7.Selecting cols from a DataFrame -- multiple cols
+ 7.Selecting cols from a DataFrame -- multiple cols
 
-8.Selecting rows from a DataFrame
+ 8.Selecting rows from a DataFrame
 
-9.iloc - searches using index positions
+ 9.iloc - searches using index positions
 
-10.loc - searches using index labels
+ 10.loc - searches using index labels
 
-11.Selecting both rows and cols
+ 11.Selecting both rows and cols
 
-12.Filtering a DataFrame
+ 12.Filtering a DataFrame
 
-13.Adding new cols - completely new
+ 13.Adding new cols - completely new
 
-14.Adding new cols - from existing ones
+ 14.Adding new cols - from existing ones
 
 
-Dataframe IMPORTANT function 
+ Dataframe IMPORTANT function 
  
-1. astype
+ 1.value_counts
+ 
+ 2. Toss decision plot
+ 
+ 3. No of matches each team has played
+ 
+ 4. sort_values
+ 
+ 5. Sort values on nan values
+ 
+ 6. Sorting on multiple columns
+ 
+ 7. rank
+ 
+ 8. sort index
+ 
+ 9. set index
+ 
+ 10. reset index
+ 
+ 11. How to replace existing index without loosing
+ 
+ 12. Series to dataframe using reset_index
+ 
+ 13. rename index & rename
+ 
+ 14. unique & nunique
+ 
+ 15. isnull/notnull
+ 
+ 16. dropna
+ 
+ 17. fillna
+ 
+ 18. drop_duplicates
+ 
+ 19. find the last match played by virat kohli in Delhi
+ 
+ 20. drop
+ 
+ 21. apply
 
-2. between
+🅿🅰🆁🆃 3 🅲🅾🅽🆃🅰🅸🅽🆂
 
-3. clip
+ GroupBy
+ 
+ Applying builtin aggregation fuctions on groupby objects
 
-4. drop_duplicates
-5. duplicated
+ find the top 3 genres by total earning
 
-6. isnull
+ find the genre with highest avg IMDB rating
+ 
+ find director with most popularity
 
-7. dropna
+ find the highest rated movie of each genre
 
-8. fillna
+ find number of movies done by each actor
 
-9. isin
+# GroupBy Attributes and Methods
 
-10. apply
+ find total number of groups -- len
+ 
+ find items in each group -- size
 
-11. copy
+ first()/last() / nth item
+
+ get_group / vs filtering
+
+ groups attribute
+
+ describe / # sample / # nunique
+
+ # agg method -  passing dict
+ # agg method -  passing list
+ 
+ looping on groups
+ find the highest rated movie of each genre
+
+ apply -- builtin function
+
+ find number of movies starting with A for each group
+
+ find ranking of each movie in the group according to IMDB score
+
+ find normalized IMDB rating group wise
+
+ groupby on multiple cols
+
+ find the most earning actor -- director combo
+
+ find the best(in-terms of metascore(avg)) actor -- genre combo
+
+ agg on multiple groupby
+
+🅿🅰🆁🆃 4 🅲🅾🅽🆃🅰🅸🅽🆂
+
+ IPL Dataset
+
+  # find the top 10 batsman in terms of runs
+
+  # find the batsman with max no of sixes
+
+  # find batsman with most number of 4's and 6's in last 5 overs
+
+
+  # find V Kohli's record against all teams
+
+  # Create a function that can return the highest score of any batsman
+  
+🅿🅰🆁🆃 5 🅲🅾🅽🆃🅰🅸🅽🆂  
+
+   #pd.concat
+   
+   #df.append
+
+   #Concat as mullitindex df 
+
+   #concat dataframes horizontally
+
+   #Merge 
+       
+       #inner_join
+        
+       #left_join
+      
+       #right_join
+
+       #outer_join
+
+   # 1. find total revenue generated
+   
+   # 2. find month by month revenue
+
+   # 3. Print the registration table
+    
+   # 4. Plot bar chart for revenue/course
+
+   # 5. find students who enrolled in both the months
+
+   # 6. find course that got no enrollment
+   
+   # 7. find students who did not enroll into any courses
+
+   # 8. Print student name -- partner name for all enrolled students
+
+   # 9. find top 3 students who did most number enrollments
+
+   # 10. find top 3 students who spent most amount of money on courses
+
+   # Alternate syntax for merge - pd.merge       
+
+ # IPL Problems
+
+   # find top 3 stadiums with highest sixes/match ratio
+   
+   # find orange cap holder of all the seasons
+
+🅿🅰🆁🆃 6 🅲🅾🅽🆃🅰🅸🅽🆂
+
+  MultiIndex Session Start
+
+  Having Multiple Index
+
+  how to create multiindex object
+
+  creating a series with multiindex object
+
+  Fetching Items from multindex series
+
+  Dimension of multi Index series?
+
+  #unstack
+  
+  #stack
+ 
+  Why to use Multi Index series?
+ 
+ #MultiIndex DataFrame
+
+ # Are columns really different from index?
+
+ #MultiIndex Data Frame from columns perspective
+
+ #MultiIndex on row and column both
+
+ #Stacking  and #Unstacking
+
+ Working with #multiIndex DataFrames
+
+ # Extracting Single row
+
+# Extracting Cols
+
+# Extracting both
+
+# sorting index
+
+#Transpose Dataframe
+
+#swaplevel
+
+#LongVsWide Data
+
+#Pandas-melt -- simple example branch
+
+# melt - real world example
+
+
+🅿🅰🆁🆃 7 🅲🅾🅽🆃🅰🅸🅽🆂
+
+   pivot_table 
+   
+   #aggfunc
+   
+   #multidimensional pivot_table
+
+   #pivot_table margin
+   
+   #plotting_graph
+   
+  
+🅿🅰🆁🆃 8 🅲🅾🅽🆃🅰🅸🅽🆂
+  
+  #pandas_string
+   
+   # What are vectorized string operations
+   
+   # problem in vectorized opertions in vanilla python
+   
+   # How pandas solves this issue?
+   
+   # Common Functions
+            
+            lower/upper/capitalize/title
+            
+            #len/strip
+            
+            #split -- get
+
+            #replace 
+
+ # filtering - # startswith/endswith  isdigit/isalpha...
+
+ # applying regex
+
+ # find last names with start and end char vowel
+ 
+ # slicing
+
+
+🅿🅰🆁🆃 9 🅲🅾🅽🆃🅰🅸🅽🆂
+
+    #pandas date_time
+    
+    Creating Timestamp objects
+    
+    # using datetime.datetime object
+    
+    # fetching attributes - year/month/day/
+    
+    #why separate objects to handle data and time when python already has datetime functionality?
+    
+    #DatetimeIndex Object
+    
+    #date_range function
+    
+    #to_datetime function
+    
+    #date time accessor
+    
+    #plotting 
